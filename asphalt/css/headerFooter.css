@@ -1,0 +1,218 @@
+/* navbar */
+.navigation-bar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-shadow: rgb(104, 104, 104) 0px 4px 6px -1px;
+    height: 10vh;
+    z-index: 20;
+}
+
+.logo{
+    height: 50px;
+    width: auto;
+    padding-left: 10px;
+    margin: 4px 4px 4px 4px;
+
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon{
+    display: none;
+}
+
+.navigation{
+    display: flex;
+    margin-right: 50px;
+}
+
+
+.navigation .navigation-list a{
+    text-decoration: none;
+
+    margin-left: 6vw;
+    background-color: white;
+    color: #FF0050;
+    transition: all 0.3s ease;
+    padding: 5px 9px 5px 9px;
+    border-radius: 20px;
+    
+}
+
+
+.navigation .navigation-list a:hover{
+    color: white;
+    background: #BF003C;
+}
+
+
+/* footer */
+.footer-area{
+    margin-top: 20vh;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 250px;
+
+}
+
+.social-media-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.social-media img{
+    height: 30px;
+    margin: 8px 0px 8px 0px;
+}
+
+.explore{
+
+    margin: 15px 0px 15px 0px;
+
+}
+
+.explore a{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+}
+
+.explore a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.explore-area{
+    margin-right: 60px;
+}
+
+.gameloft{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 15px;
+    margin: 20px 0 0 100px;
+    justify-content: center;
+
+}
+
+.footer-contents{
+    display:flex;
+    flex-direction: row;
+    margin: 30px 100px 0 0;
+}
+
+.gameloft img{
+    margin-bottom: 30px;
+    width: 25vw;
+}
+
+
+@media (max-width: 768px) {
+    
+    .gameloft img{
+        height: 40px;
+        width: auto;
+    }
+    .footer-area{
+        
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 20px 0 20px 0;
+
+    }
+    .footer-contents{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0px 0 0;
+    }
+    .gameloft{
+        margin: 30px 0 20px 0;
+        align-items: center;
+        
+    }
+
+    .social-media img{
+        height: 30px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    
+    .social-media-images{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .explore-area{
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .social-media-section{
+
+        margin-top: 10px;
+
+    }
+    
+    /* nav bar */
+    .navigation{
+        margin: 0px;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 25px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .hamburger-menu .bar {
+        height: 3px;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .navigation-list {
+        display: none;
+        position: absolute;
+        top: 10vh;
+        right: 0;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100vw;
+        height: 50px;
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navigation .navigation-list a{
+        margin: 0px 8px 0px 8px;
+        text-decoration: none;
+        background-color: white;
+        color: red;
+        padding: 0px 8px 0px 8px;
+
+    }
+
+}

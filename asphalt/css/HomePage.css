@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+
+    background-color: #111111;
+
+}
+
+.banner{
+    background-image: url('../assets/homepage/ss_8642f9e787f14f53eadbd5256131e9115a6d7e99.1920x1080.jpg');
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.download-btn{
+    text-decoration: none;
+    background: #FF0050;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    margin-top: 300px;
+    transition: all 0.3s ease;
+}
+.download-btn:hover{
+    background-color:transparent;
+    border: 8px solid #FF0050;
+    border-radius: 40px;
+}
+
+.gameplay-section{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/homepage/pexels-codioful-7135037.jpg');
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.gameplay-content{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    /* background: rgb(51, 32, 92, 0.5); */
+    justify-content: center;
+    align-items: center;
+    /* margin: 30px 0 30px 0; */
+    
+    /* background-repeat: repeat-y; */
+}
+
+
+
+.text-section{
+    width: 30%;
+    font-size: 30px;
+    margin: 0 50px 0 50px;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.image-section img{
+    height: 400px;
+    /* object-fit: cover; */
+    box-shadow: rgb(0,0,0,0.7) 5px 10px 50px ,rgb(0,0,0,0.7) -5px 0px 250px;
+}
+
+@media (max-width: 500px) {
+    .text-section{
+        width: 90%;
+        font-size: 12px;
+        margin: 20px 0px 20px 0px;
+
+    }
+
+    .image-section img{
+        width: 100%;
+        height: auto;
+    }
+
+    .image-section{
+        /* height: 150px; */
+        width: 300px;
+    }
+
+    .gameplay-section{
+        align-items: center;
+    }
+
+    .gameplay-content{
+        flex-direction: column;
+        width: 300px;
+        align-items: normal;
+        height: 400px;
+    }
+    .banner{
+        height: 50vh;
+        width: 100%;
+        
+    }
+}

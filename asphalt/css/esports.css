@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+body{
+    /* background: rgb(187,184,227);
+    background: linear-gradient(90deg, rgba(187,184,227,1) 0%, rgba(238,238,252,1) 50%, rgba(250,247,252,1) 100%); */
+    /* background: rgb(228,46,46);
+background: linear-gradient(90deg, rgba(228,46,46,1) 0%, rgba(56,56,56,1) 100%); */
+    /* background: #111111; */
+    background-position: -5px -5px;
+    background-color: #111111;
+    background-size: 30px 30px;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+
+}
+
+
+
+.sponsor-img{
+    width: 250px;
+    height: 80px;
+}
+
+.sponsor-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.sponsor-img-card{
+    width: 300px;
+    height: 100px;
+    background: rgb(56, 56, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    margin: 3vh 3vw 3vh 3vw;
+    border: 2px solid rgba(159, 159, 159, 0.12);
+}
+
+.sponsor-section{
+    /*12margin-top: 20vh; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.stats-section{
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.stats-card{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px; 
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    /* ganti warna */
+    backdrop-filter: blur(20px);
+    margin: 10px 20px 10px 20px;
+    color: rgb(189, 142, 0);
+    font-weight: 800;
+
+    box-shadow: 0px 0px 10px 1px #ffbd7a3f;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* copas */
+/* .stats-card:hover{
+    box-shadow: 0px 0px 20px 1px #ffbb763f;
+    border: 1px solid rgba(255, 255, 255, 0.454);
+} */
+
+.stats-card .icon-card{
+    max-height: 40%;
+    width: auto;
+    margin: 20px 0px 20px 0px;
+
+}
+
+.stats-card .icon-card img{
+    max-height: 100%;
+    width: auto;
+}
+
+
+
+.trailer-container{
+    position: relative;
+    padding: 400px 0;
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.trailer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+        /* padding-top: 56.25%;  */
+}
+
+/* .trailer iframe {
+    position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+} */
+
+.footer-area{
+    margin-top: 20vh;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 250px;
+    /* border-top: rgb(71, 79, 122) 3px solid; */
+}
+
+.social-media-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.social-media img{
+    height: 30px;
+    margin: 8px 0px 8px 0px;
+}
+
+.explore{
+    /* padding: 5px 5px 5px 5px;
+    border: 2px solid white; */
+    margin: 15px 0px 15px 0px;
+    /* text-align: center; */
+}
+
+.explore a{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+}
+
+.explore a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.explore-area{
+    margin-right: 60px;
+}
+
+.gameloft{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 15px;
+    margin: 20px 0 0 100px;
+    justify-content: center;
+
+}
+
+.footer-contents{
+    display:flex;
+    flex-direction: row;
+    margin: 30px 100px 0 0;
+}
+
+.gameloft img{
+    margin-bottom: 30px;
+    width: 25vw;
+}
+
+.title-section{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.heading-1{
+    text-align: center;
+    color: white;
+    text-shadow: 
+    /* 0 0 6px rgba(202,228,225,0.92),
+    0 0 30px rgba(202,228,225,0.34),
+    0 0 12px rgba(30,132,242,0.52),
+    0 0 21px rgba(30,132,242,0.92),
+    0 0 34px rgba(30,132,242,0.78),
+    0 0 54px rgba(30,132,242,0.92); */
+    0 0 6px rgba(228, 202, 202, 0.92),
+    0 0 30px rgba(228, 202, 202, 0.34),
+    0 0 12px rgba(242, 30, 30, 0.52),
+    0 0 21px rgba(242, 30, 30, 0.92),
+    0 0 34px rgba(242, 30, 30, 0.78),
+    0 0 54px rgba(242, 30, 30, 0.92);
+                
+}
+
+
+
+@media (max-width: 768px) {
+    .sponsor-img{
+        width: 150px;
+        height: 60px;
+    }
+    .sponsor-img-card{
+        width: 170px;
+        height: 70px;
+    }
+    .stats-card{
+        font-size: 11px;
+        height: 100px;
+        width: 100px;
+    }
+    .stats-card .icon-card{
+        margin-bottom: 7px;
+        margin-top: 10px;
+    }
+    .trailer-container{
+        padding: 40vh 0;
+    }
+    .gameloft img{
+        height: 40px;
+        width: auto;
+    }
+    .footer-area{
+        
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 20px 0 20px 0;
+
+    }
+    .footer-contents{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0px 0 0;
+    }
+    .gameloft{
+        /* flex-direction: column;
+        font-size: 15px; */
+        margin: 30px 0 20px 0;
+        align-items: center;
+        
+    }
+
+    .social-media img{
+        height: 30px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    
+    .social-media-images{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .explore-area{
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .social-media-section{
+
+        margin-top: 10px;
+
+    }
+    
+    .navigation{
+        margin: 0px;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 25px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .hamburger-menu .bar {
+        height: 3px;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .navigation-list {
+        display: none;
+        position: absolute;
+        top: 10vh;
+        right: 0;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100vw;
+        height: 50px;
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navigation .navigation-list a{
+        margin: 0px 8px 0px 8px;
+        text-decoration: none;
+        background-color: white;
+        color: red;
+        padding: 0px 8px 0px 8px;
+
+    }
+
+    /* .navigation-list a:hover{
+        color: rgb(254, 110, 110);
+        background: rgb(88, 21, 21);
+    } */
+}

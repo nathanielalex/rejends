@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/headerFooter.css">
+</head>
+<body>
+    <header class="navigation-bar">
+        <a href="HomePage.html">
+            <img src="assets/Asphalt_9_logo.png" class="logo">
+        </a>
+        <nav class="navigation">
+            <div class="hamburger-menu" id="hamburger-menu" onclick="openMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div id="menu" class="navigation-list">
+
+                <a href="ProductPage.html">Products</a>
+                <a href="news.html">News</a>
+                <a href="esports.html">Esport</a>
+                <a href="SubscriptionPage.html">Subscribe</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="title-section">
+        <h1 class="heading-1">Our Cars</h1>
+    </div>
+
+    <div class="class-option-section">
+        <div class="class-option" id="option1-box">
+            <input type="radio" id="option1" name="car-class" class="radio-input">
+            <label for="option1">
+                Class D
+            </label>
+        </div>
+        <div class="class-option" id="option2-box">
+            <input type="radio" id="option2" name="car-class" class="radio-input">  
+            <label for="option2">
+                Class C
+            </label>
+        </div>
+        <div class="class-option" id="option3-box">
+            <input type="radio" id="option3" name="car-class" class="radio-input">
+            <label for="option3">
+                Class B
+            </label>
+        </div>
+        <div class="class-option" id="option4-box">
+            <input type="radio" id="option4" name="car-class" class="radio-input">
+            <label for="option4">
+                Class A
+            </label>
+        </div>
+        <div class="class-option" id="option5-box">
+            <input type="radio" id="option5" name="car-class" class="radio-input">
+            <label for="option5">
+                Class S
+            </label>
+        </div>
+    </div>
+
+
+    <div class="class-section" id="class-d">
+        <h2 class="class-title">Class D</h2>
+        <div class="card-catalogue">
+
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classD/Mitsubishi-Lancer-Evolution.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Mitsubishi Lancer Evolution</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classD/Nissan-370Z-Nismo.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Nissan 370Z NISMO</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classD/Porsche-911-Targa-4S.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Porsche 911 Targa 4S</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classD/Chevrolet-Camaro-LT.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Chevrolet Camaro LT</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="class-section" id="class-c">
+        <h2 class="class-title">Class C</h2>
+        <div class="card-catalogue">
+
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classC/BMW-M4-GTS.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">BMW M4 GTS</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classC/Lotus-Evora-Sport-410.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Lotus Evora Sport 410</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classC/Acura-2017-NSX.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Acura 2017 NSX</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classC/Mercedes-Benz-Amg-GT-S.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Mercedes Benz Amg GT S</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="class-section" id="class-b">
+        <h2 class="class-title">Class B</h2>
+        <div class="card-catalogue">
+
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classB/Aston-Martin-Vantage-GT12.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Aston Martin Vantage GT12</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classB/Ferrari-488-GTB.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Ferrari 488 GTB</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classB/Ford-GT.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Ford GT</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classB/SCG-003S.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">SCG 003S</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="class-section" id="class-a">
+        <h2 class="class-title">Class A</h2>
+        <div class="card-catalogue">
+
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classA/Dodge-Viper-GTS.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Dodge Viper GTS</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classA/McLaren-P1tm.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">McLaren P1tm</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classA/Nissan-GT-R-Nismo.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Nissan GT-R Nismo</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classA/Pagani-Huayra-BC.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Pagani Huayra BC</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="class-section" id="class-s">
+        <h2 class="class-title">Class S</h2>
+        <div class="card-catalogue">
+
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classS/Spania-GTA-2025-GTA-Spano.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Spania GTA</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classS/Faraday-FFZERO1.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Faraday-FFZERO1</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classS/BXR-Bailey-Blade-GT1.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">BXR Bailey Blade GT1</h4>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="assets/cars/classS/Naran-Hyper-Coupe.webp" class="car-image">
+                    </div>
+                </div>
+                <div class="car-content">
+                    <h4 class="car-name">Naran-Hyper-Coupe</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-area">
+            <div class="gameloft">
+                <img src="assets/footer/gl_logo_8684b33d32.webp">
+                © 2018 Gameloft. 
+            </div>
+            <div class="footer-contents">
+
+                <div class="explore-area">
+                    <span class="section-title">Explore</span>
+                    <div class="explore">
+                        <a href="ProductPage.html">
+    
+                            Products
+                        </a>
+                    </div>
+                    <div class="explore">
+                        <a href="news.html">
+    
+                            News
+                        </a>
+                    </div>
+                    <div class="explore">
+                        <a href="esports.html">
+    
+                            Esport
+                        </a>
+                    </div>
+                    <div class="explore">
+                        <a href="SubscriptionPage.html">
+    
+                            Subscribe
+                        </a>
+                    </div>
+                </div>
+
+                <!-- <div class="policy-area">
+                    <span class="section-title">Policies</span>
+                    <div class="policy">
+                        <a href="">
+    
+                            Terms & Condtion
+                        </a>
+                    </div>
+                    <div class="policy">
+                        <a href="">
+    
+                            Legal Notices
+                        </a>
+                    </div>
+                    <div class="policy">
+                        <a href="">
+    
+                            Privacy Policy
+                        </a>
+                    </div>
+                </div> -->
+
+                <div class="social-media-section">
+                    <span class="section-title">Follow us</span>
+                    <div class="social-media-images">
+
+                        <div class="social-media">
+                            <a href="https://x.com/asphalt">
+        
+                                <img src="assets/footer/5296514_bird_tweet_twitter_twitter logo_icon.png">
+                            </a>
+                        </div>
+                        <div class="social-media">
+                            <a href="https://www.youtube.com/@AsphaltGames">
+        
+                                <img src="assets/footer/5296521_play_video_vlog_youtube_youtube logo_icon.png">
+                            </a>
+                        </div>
+                        <div class="social-media">
+                            <a href="https://www.instagram.com/asphaltgames">
+                                <img src="assets/footer/5296765_camera_instagram_instagram logo_icon.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                
+            </div>
+        </div>
+    </footer>
+    <script src="JS/navbar.js"></script>
+    <script src="JS/ProductPage.js"></script>
+</body>
+</html>

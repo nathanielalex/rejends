@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #111111;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px
+
+}
+
+
+.news-section{
+    /* margin-left: 5vw;
+    margin-right: 5vw; */
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.news-section img{
+    height: 200px;
+    width: 320px;
+    object-fit: cover;
+    box-shadow: rgba(254, 254, 254, 0.24) 3px 3px 8px,
+     rgba(254, 254, 254, 0.24) -3px -3px 8px;
+}
+
+.news-section .news-content{
+    padding-left: 50px;
+    width: 300px;
+}
+
+.news-section .date{
+    padding-bottom: 15px;
+}
+
+.news-section .read-duration{
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.news-section .button-area{
+    margin-top: 50px;
+}
+
+.news-section .button{
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    color: #3A0CA3;
+}
+
+.news-section .button:hover {
+    background-color: #3A0CA3;
+    color: white;
+    box-shadow: #3A0CA3 0px 7px 29px 0px;
+}
+
+
+
+.title-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.heading-1{
+    text-align: center;
+    color: white;
+    text-shadow: 
+    0 0 6px rgba(228, 202, 202, 0.92),
+    0 0 30px rgba(228, 202, 202, 0.34),
+    0 0 12px rgba(242, 30, 30, 0.52),
+    0 0 21px rgba(242, 30, 30, 0.92),
+    0 0 34px rgba(242, 30, 30, 0.78),
+    0 0 54px rgba(242, 30, 30, 0.92);
+                
+}
+
+@media (max-width: 500px) {
+    .news-section img{
+        width: 70vw;
+        height: auto;
+    }
+    .news-section .button{
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+    .news-section .news-content{
+        padding-left: 10px;
+        width: 70vw;
+        height: 22vh;
+        padding-top: 3vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background: rgba(51, 51, 51, 0.5);
+
+    }
+
+    .news-title{
+        padding-left: 0px;
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+    
+    .news-section .date{
+        padding-bottom: 0px;
+    }
+    
+    .news-section .read-duration{
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    .news-section .button-area{
+        margin-top: 25px;
+    }
+
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/SubscriptionPage.css">
+</head>
+<body>
+    <div class="back-button-area">
+        <a href="HomePage.html" class="back-button">
+            < back
+        </a>
+    </div>
+    <div class="container">
+        <form action="" method="" class="form-container">
+            <h2 class="title">Subscription Form</h2>
+            <div class="form-input">
+
+                <div class="input-field">
+                    <label>Name</label>
+                    <input type="text" id="input_name" placeholder="enter name" class="textbox">
+                    <p id="name_status"></p>
+                </div>
+                <div class="input-field">
+                    <label>Email</label>
+                    <input type="email" id="input_email" placeholder="enter email" class="textbox">
+                    <p id="email_status"></p>
+                </div>
+                <div class="input-field">
+                    <label>Password</label>
+                    <input type="password" id="input_password" placeholder="password" class="textbox">
+                    <p id="password_status"></p>
+                </div>
+                <div class="input-field">
+                    <label>Date of Birth</label>
+                    <input type="text" id="input_dob" placeholder="DD-MM-YYYY" class="textbox">
+                    <p id="dob_status"></p>
+                </div>
+                <!-- <div class="input-field">
+                    <label>Date of Birth</label>
+                     <div class="dob-field">
+                         <input type="text" id="input_date" placeholder="date" class="sub-textbox">
+                         <input type="text" id="input_month" placeholder="month" class="sub-textbox">
+                         <input type="text" id="input_year" placeholder="year" class="sub-textbox">
+                     </div>
+                    <p id="age_status"></p>
+                </div> -->
+                <div class="gender-section">
+                    <div class="gender-option" id="gender1-box">
+                        <input type="radio" id="gender1" name="gender" class="radio" onclick="gender_validate()">
+                        <label for="gender1">
+                            <span class="radio-inner-circle"></span>
+                            <h5>Male</h5>
+                        </label>
+                    </div>
+                    <div class="gender-option" id="gender2-box">
+                        <input type="radio" id="gender2" name="gender" class="radio" onclick="gender_validate()">
+                        <label for="gender2">
+                            <span class="radio-inner-circle"></span>
+                            <h5>Female</h5>
+                        </label>
+                    </div>
+                </div>
+                <p id="gender_status"></p>
+                <div class="terms-section">
+                    <input type="checkbox" id="checkbox-element" onclick="terms_validate()">
+                    <span>I agree to the terms and conditions</span>
+                    <p id="terms_status"></p>
+                </div>
+                <div class="submit">
+                    <input type="button" class="submit-button" onclick="validateAll()" value="submit"> 
+                </div>
+            </div>
+            
+        </form>
+        
+    </div>
+</body>
+<script src="JS/SubsciptionPage.js"></script>
+</html>
